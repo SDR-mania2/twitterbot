@@ -1,11 +1,7 @@
 import twitter
 
-
 #以下でTwitter APIのキーを指定
-auth = twitter.OAuth(consumer_key="",
-consumer_secret="",
-token="",
-token_secret="")
+auth = twitter.OAuth(consumer_key="",consumer_secret="",token="",token_secret="")
 
 t = twitter.Twitter(auth=auth)
 
