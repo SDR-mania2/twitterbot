@@ -15,7 +15,7 @@ t.statuses.update(status=bunsho)
 
 #時間指定はcrontabで瞬殺
 #import os
-#os.system("echo '${* * * * * twitter_bot.pyのパス}' >> '${crontabファイルのパス}'")
+#os.system("echo '* * * * * twitter_bot.pyのパス' >> crontabファイルのパス")
 #みたいな感じで。
 #crond入れんとだめだが。
 
