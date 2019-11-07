@@ -14,4 +14,4 @@ t.statuses.update(status=bunsho)
 #os.system("echo '0 * * * * * twitter_bot.pyのパス' >> crontabファイルのパス")
 #みたいな感じで。
 #crond入れんとだめだが。
-
+#Twython使えばもっと簡単なような気がする。
